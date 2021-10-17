@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- Change this groupId to your own organization groupId -->
-  <groupId>org.rhrcastro.sonarrules</groupId>
+  <groupId>com.rhrcastro</groupId>
 
   <!-- Change this artifactId to your own organization artifactId -->
   <artifactId>java-urlfilter-custom-rule</artifactId>
