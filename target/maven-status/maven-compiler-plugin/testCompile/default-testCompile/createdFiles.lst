@@ -1,0 +1,6 @@
+org/sonar/samples/java/checks/JavaURLFilterTest.class
+org/sonar/samples/java/PluginRulesTest$MockedSonarRuntime.class
+org/sonar/samples/java/JavaRulesDefinitionTest.class
+org/sonar/samples/java/JavaURLFilterRegistrarCheck.class
+org/sonar/samples/java/PluginRulesTest$1.class
+org/sonar/samples/java/PluginRulesTest.class

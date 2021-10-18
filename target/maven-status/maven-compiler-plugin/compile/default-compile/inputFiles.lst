@@ -1,0 +1,6 @@
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/JavaURLFilterRegistrar.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/JavaRulesDefinition.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/checks/JavaURLFilterCheck.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/utils/NoIfStatementInTestsRule.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/RulesList.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/PluginRules.java
