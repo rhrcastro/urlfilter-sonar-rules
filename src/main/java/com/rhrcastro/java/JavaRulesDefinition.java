@@ -12,7 +12,7 @@ public class JavaRulesDefinition implements RulesDefinition {
     // don't change that because the path is hard coded in CheckVerifier
     private static final String RESOURCE_BASE_PATH = "org/sonar/l10n/java/rules/java";
 
-    public static final String REPOSITORY_KEY = "mycompany-java";
+    public static final String REPOSITORY_KEY = "Sonarqube URL Filter";
 
     private static final Set<String> RULE_TEMPLATES_KEY = Collections.emptySet();
 
