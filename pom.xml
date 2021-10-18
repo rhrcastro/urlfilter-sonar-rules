@@ -3,17 +3,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- Change this groupId to your own organization groupId -->
-  <groupId>com.rhrcastro</groupId>
+  <groupId>org.sonar.samples</groupId>
 
   <!-- Change this artifactId to your own organization artifactId -->
-  <artifactId>java-urlfilter-custom-rule</artifactId>
+  <artifactId>java-custom-rules-example</artifactId>
 
   <version>1.0.0-SNAPSHOT</version>
 
   <packaging>sonar-plugin</packaging>
 
   <!--  Change the name of the plugin here -->
-  <name>SonarQube custom rule for url filter</name>
+  <name>SonarQube Java :: Documentation :: Custom Rules Example</name>
 
   <!--  Change the description of the plugin here -->
   <description>Java Custom Rules Example for SonarQube</description>
@@ -95,7 +95,7 @@
         <configuration>
           <pluginKey>java-custom</pluginKey>
           <pluginName>Java Custom Rules</pluginName>
-          <pluginClass>com.rhrcastro.java.PluginRules</pluginClass>
+          <pluginClass>org.sonar.samples.java.JavaURLFilterRulesPlugin</pluginClass>
           <sonarLintSupported>true</sonarLintSupported>
           <!-- FIXME: https://jira.sonarsource.com/browse/SLCORE-315 -->
           <!-- SonarLint currently supports only up to SQ 8.5, instead of 8.9 LTS -->
@@ -140,7 +140,6 @@
         <artifactId>maven-dependency-plugin</artifactId>
         <executions>
           <execution>
-            <?m2e ignore?>
             <id>copy</id>
             <phase>test-compile</phase>
             <goals>

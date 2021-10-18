@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JavaURLFilterRegistrar.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SonarQube Java :: Documentation :: Custom Rules Example</a> &gt; <a href="index.source.html" class="el_package">org.sonar.samples.java</a> &gt; <span class="el_source">JavaURLFilterRegistrar.java</span></div><h1>JavaURLFilterRegistrar.java</h1><pre class="source lang-java linenums">package org.sonar.samples.java;
+
+import java.util.List;
+import org.sonar.plugins.java.api.CheckRegistrar;
+import org.sonar.plugins.java.api.JavaCheck;
+import org.sonarsource.api.sonarlint.SonarLintSide;
+
+@SonarLintSide
+<span class="fc" id="L9">public class JavaURLFilterRegistrar implements CheckRegistrar {</span>
+
+  @Override
+  public void register(RegistrarContext registrarContext) {
+<span class="fc" id="L13">    registrarContext.registerClassesForRepository(JavaURLFilterDefinition.REPOSITORY_KEY, checkClasses(), testCheckClasses());</span>
+<span class="fc" id="L14">  }</span>
+
+  public static List&lt;Class&lt;? extends JavaCheck&gt;&gt; checkClasses() {
+<span class="fc" id="L17">    return RulesList.getJavaChecks();</span>
+  }
+
+  public static List&lt;Class&lt;? extends JavaCheck&gt;&gt; testCheckClasses() {
+<span class="fc" id="L21">    return RulesList.getJavaTestChecks();</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

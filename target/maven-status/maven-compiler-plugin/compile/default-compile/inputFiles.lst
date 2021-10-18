@@ -1,6 +1,11 @@
-/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/JavaURLFilterRegistrar.java
-/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/JavaRulesDefinition.java
-/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/checks/JavaURLFilterCheck.java
-/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/utils/NoIfStatementInTestsRule.java
-/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/RulesList.java
-/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/com/rhrcastro/java/PluginRules.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/package-info.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/utils/PrinterVisitor.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/checks/NoIfStatementInTestsRule.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/utils/package-info.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/JavaURLFilterRegistrar.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/utils/StringUtils.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/checks/package-info.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/RulesList.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/checks/JavaURLFilterRule.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/JavaURLFilterDefinition.java
+/home/lamperouge/UFRPE/urlfilter-sonar-rules/src/main/java/org/sonar/samples/java/JavaURLFilterRulesPlugin.java
