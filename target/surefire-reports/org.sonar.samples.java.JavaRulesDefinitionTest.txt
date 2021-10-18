@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: org.sonar.samples.java.JavaRulesDefinitionTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.071 s <<< FAILURE! - in org.sonar.samples.java.JavaRulesDefinitionTest
-org.sonar.samples.java.JavaRulesDefinitionTest.test  Time elapsed: 0.064 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! - in org.sonar.samples.java.JavaRulesDefinitionTest
+org.sonar.samples.java.JavaRulesDefinitionTest.test  Time elapsed: 0.078 s  <<< ERROR!
 java.lang.IllegalStateException: Can't read resource: org/sonar/l10n/java/rules/java/JavaURLFilter.html
-	at org.sonar.samples.java.JavaRulesDefinitionTest.test(JavaRulesDefinitionTest.java:16)
+	at org.sonar.samples.java.JavaRulesDefinitionTest.test(JavaRulesDefinitionTest.java:17)
 Caused by: java.io.IOException: Resource not found in the classpath: org/sonar/l10n/java/rules/java/JavaURLFilter.html
-	at org.sonar.samples.java.JavaRulesDefinitionTest.test(JavaRulesDefinitionTest.java:16)
+	at org.sonar.samples.java.JavaRulesDefinitionTest.test(JavaRulesDefinitionTest.java:17)
 

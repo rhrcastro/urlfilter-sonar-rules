@@ -13,6 +13,7 @@ public class JavaRulesDefinitionTest {
     void test() {
         JavaRulesDefinition rulesDefinition = new JavaRulesDefinition();
         RulesDefinition.Context context = new RulesDefinition.Context();
+        
         rulesDefinition.define(context);
         RulesDefinition.Repository repository = context.repository(JavaRulesDefinition.REPOSITORY_KEY);
 

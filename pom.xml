@@ -95,7 +95,7 @@
         <configuration>
           <pluginKey>java-custom</pluginKey>
           <pluginName>Java Custom Rules</pluginName>
-          <pluginClass>org.sonar.samples.java.MyJavaRulesPlugin</pluginClass>
+          <pluginClass>com.rhrcastro.java.PluginRules</pluginClass>
           <sonarLintSupported>true</sonarLintSupported>
           <!-- FIXME: https://jira.sonarsource.com/browse/SLCORE-315 -->
           <!-- SonarLint currently supports only up to SQ 8.5, instead of 8.9 LTS -->
